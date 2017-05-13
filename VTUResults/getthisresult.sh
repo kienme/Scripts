@@ -2,7 +2,7 @@
 
 USN_BASE="1mv14cs"
 URL="http://results.vtu.ac.in/results/result_page.php?usn="
-OUT_FOLDER="Results"
+OUT_FOLDER="Result"
 
 download() # $1=from $2=to $3=usn
 {
@@ -19,4 +19,7 @@ download() # $1=from $2=to $3=usn
 
 mkdir $OUT_FOLDER
 
+#TODO: Check arg count
 download "$1"
+
+firefox $OUT_FOLDER/$1".html" &
