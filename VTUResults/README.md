@@ -1,4 +1,4 @@
-## 1. VTUResults
+## VTUResults
 
 ### 1. ```checkresult.sh```
 Continuously checks the result url to see if it says 'Unavailable'. If not, it immediately opens the saved result in a browser and plays alert sounds. Use this on the day results are to be announced.
