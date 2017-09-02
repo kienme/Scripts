@@ -1,7 +1,7 @@
 #!/bin/sh
 
 USN_BASE="1mv14cs"
-URL="http://results.vtu.ac.in/results/result_page.php?usn="
+URL="http://results.vtu.ac.in/results17/result_page.php?usn="
 OUT_FOLDER="Result"
 
 download() # $1=from $2=to $3=usn

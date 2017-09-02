@@ -1,7 +1,7 @@
 #!/bin/sh
 
 USN="1mv14cs085"
-url="http://results.vtu.ac.in/results/result_page.php?usn=$USN"	#Change this if VTU changes the result url
+url="http://results.vtu.ac.in/results17/result_page.php?usn=$USN"	#Change this if VTU changes the result url
 html_file="output.html"
 res="non_empty_string"
 
