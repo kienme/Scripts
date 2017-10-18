@@ -2,7 +2,7 @@
 
 # Needs exactly one arg
 if [ $# -ne 1 ]; then
-	echo "Usage: cppgen.sh <filename>"
+	echo "Usage: $0 <filename>"
 	exit
 fi
 
@@ -39,5 +39,5 @@ int main()
 }
 END_OF_TEMPLATE
 
-#Open file using sublime text
+# Open file using sublime text
 subl3 $filename
