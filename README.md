@@ -10,6 +10,10 @@ Scripts to speed up chores in competitive coding contests.
 
 Quickly switch between local git profiles.
 
-## 3. [VTUResults](https://github.com/kienme/Scripts/tree/master/VTUResults)
+## 3. [LibraryRenewal](https://github.com/kienme/Scripts/tree/master/LibraryRenewal)
+
+Auto renew college library books.
+
+## 4. [VTUResults](https://github.com/kienme/Scripts/tree/master/VTUResults)
 
 Scripts to check for VTU results and download for offline viewing.
