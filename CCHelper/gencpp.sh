@@ -15,15 +15,24 @@ fi
 
 cat > $filename << END_OF_TEMPLATE
 #include <iostream>
+#include <algorithm>
 #include <unordered_map>
 #include <vector>
 
-#define typ unsigned long long int
+#define typ long long int
 
 using namespace std;
 
+inline typ max(typ a, typ b)
+{	return a > b ? a : b;	}
+
+inline typ min(typ a, typ b)
+{	return a < b ? a : b;	}
+
 int main()
 {
+	ios::sync_with_stdio(false);
+
 	typ T;
 	cin >> T;
 
