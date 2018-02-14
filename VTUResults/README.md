@@ -1,7 +1,7 @@
 ## VTUResults
 
 ### 1. ```checkresult.sh```
-Continuously checks the result url to see if it says 'Unavailable'. If not, it immediately opens the saved result in a browser and plays alert sounds. Use this on the day results are to be announced.
+Continuously checks the result url to see if it says 'Unavailable'. If not, it immediately opens the saved result in a browser and plays alert sounds. Use this on the day results are to be announced. NOTE: Last updated for 2017.
 
 ### 2. ```getallresults.sh```
 Download all results to a folder. Currently CS 1-136.  
