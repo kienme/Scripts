@@ -1,7 +1,6 @@
 #!/bin/sh
 
-USN_BASE="1mv14cs"
-URL="http://results.vtu.ac.in/results17/result_page.php?usn="
+URL="http://results.vtu.ac.in/vitaviresultnoncbcs/resultpage.php"
 OUT_FOLDER="Result"
 
 download() # $1=from $2=to $3=usn
@@ -10,7 +9,7 @@ download() # $1=from $2=to $3=usn
 	flag=0
 	while [ $flag -eq 0 ];	do
 		echo "Downloading $usn"
-		curl --silent --max-time 10 "$URL$usn" > "$OUT_FOLDER/$usn.html"
+		curl --data usn=$usn --silent --max-time 10 "$URL" > "$OUT_FOLDER/$usn.html"
 		if [ $? -eq 0 ]; then
 			((flag++))
 		fi
