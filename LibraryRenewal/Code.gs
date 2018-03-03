@@ -35,3 +35,11 @@ function sendMail() {
   
   GmailApp.sendEmail(SELF, SUBJECT, BODY + INF + REM);
 }
+
+function fourteenDayTrigger()
+{
+  ScriptApp.newTrigger('sendMail')
+      .timeBased()
+      .everyDays(14)
+      .create();
+}  
