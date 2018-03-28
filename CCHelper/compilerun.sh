@@ -19,4 +19,4 @@ fi
 
 # Read input from file called "inp"
 # Output to both terminal and file called "out"
-cat inp | ./$filename.o | tee out
+{ cat inp | ./$filename.o; } |& tee out
