@@ -19,15 +19,11 @@ cat > $filename << END_OF_TEMPLATE
 #include <unordered_map>
 #include <vector>
 
+//@kienme
+
 #define typ long long int
 
 using namespace std;
-
-inline typ max(typ a, typ b)
-{	return a > b ? a : b;	}
-
-inline typ min(typ a, typ b)
-{	return a < b ? a : b;	}
 
 int main()
 {
@@ -48,5 +44,5 @@ int main()
 }
 END_OF_TEMPLATE
 
-# Open file using sublime text
-subl3 $filename
+# Open file using default editor
+xdg-open $filename
