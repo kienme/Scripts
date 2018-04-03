@@ -6,6 +6,3 @@ Creates and opens a new C++ file based on the template in the script. Takes file
 ### 2. ```compilerun.sh```
 Compiles the specified program. If there are no errors, it executes the program by reading input from ```inp``` and printing output to both terminal and ```out```.
 Program can use standard input and output; redirection is done by the terminal.
-
-### Requirements
-1. ```subl3``` launches the text editor
