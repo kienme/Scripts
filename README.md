@@ -1,6 +1,6 @@
 # Scripts
 
-Miscellaneous scripts to make life easier
+> Miscellaneous scripts to make life easier
 
 ## 1. [CCHelper](https://github.com/kienme/Scripts/tree/master/CCHelper)
 
